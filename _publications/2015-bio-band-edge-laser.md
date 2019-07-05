@@ -3,7 +3,7 @@ title: "Biologically inspired band-edge laser action from semiconductor with dip
 collection: publications
 permalink: /publication/2015-bio-band-edge-laser
 date: 2015-03-11
-venue: 'Optics express'
+venue: 'Scientific Reports'
 paperurl: 'https://doi.org/10.1038/srep08965'
 citation: 'Cih-Su Wang, Chi-Shung Liau, Tzu-Ming Sun, Yu-Chia Chen, Tai-Yuan Lin, and Yang-Fang Chen. Biologically inspired band-edge laser action from semiconductor with dipole-forbidden band-gap transition. <i>Scientific reports</i>, 5:8965, 2015.'
 ---

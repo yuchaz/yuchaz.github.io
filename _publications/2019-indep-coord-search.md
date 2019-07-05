@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2019-indep-coord-search
 date: 2019-07-02
 venue: 'arXiv'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
+paperurl: 'https://arxiv.org/abs/1907.01651'
 citation: 'Yu-Chia Chen and Marina Meilă. Selecting the independent coordinates of manifolds with large aspect ratios. <i>arXiv preprint arXiv:1907.01651</i>, 2019.'
 ---
 Abstract
