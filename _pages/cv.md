@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[CV](https://yuchaz.github.io/files/resume.pdf)
+The pdf version can be downloaded [here](https://yuchaz.github.io/files/resume.pdf).
 
 Education
 ======
@@ -18,17 +18,17 @@ Education
 
 Work experience
 ======
-* Research Intern [Jun 2018 -- Sep 2018]{style="float:right"}
-  Microsoft Research, Redmond, WA
+* Microsoft Research, Redmond, WA <span style="float:right;">*Jun 2018 -- Sep 2018*&nbsp;&nbsp;</span> <br>
+  Research Intern
   * Proposed an novel approach to model large scale dynamic networks based on stochastic block model.
   * Extended the model to study causal impact on networks.
 
-* Teaching Assistant [Jan 2017 -- Dec 2017]{style="float:right"}
-  University of Washington, Seattle, WA
+* University of Washington, Seattle, WA <span style="float:right;">*Jan 2017 -- Dec 2017*&nbsp;&nbsp;</span> <br>
+  Teaching Assistant
   * Courses taught: Fundamentals of Electrical Engineering, Discrete Time Linear Systems, Devices And Circuits I, Digital Signal Processing (graduate level course)
 
-* Front-end Developer [Aug 2015 -- Jul 2016]{style="float:right"}
-  Psychological Warfare Group of M.N.D., Taipei, Taiwan
+* Psychological Warfare Group of M.N.D., Taipei, Taiwan <span style="float:right;">*Aug 2015 -- Jul 2016*&nbsp;&nbsp;</span> <br>
+  Front-end Developer
   * Developed a cloud-based file exchanging platform, which enable user to search, view and share streaming media.
   * Technology used: JavaScript (react.js), HMTL/CSS.
 
@@ -45,3 +45,14 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+<!-- References
+======
+* Marina Meilă <br>
+  Department of Statistics, University of Washington
+* Avleen Bijral <br>
+  Microsoft Corporation
+* Les Atlas <br>
+  Department of Electrical &amp; Computer Engineering, University of Washington
+* Yang-Fang Chen <br>
+  Department of Physics, National Taiwan University -->
