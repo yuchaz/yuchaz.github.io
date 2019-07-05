@@ -40,11 +40,21 @@
 
 
     <ul>
-    {% if post.citation %}
-      <li>{{ post.citation }}</li>
+    {% if post.authors %}
+      <li>{{ post.authors }}</li>
     {% endif %}
-    {% if post.paperurl %}
+    {% if post.paperurl and post.venue %}
+      <li>{{ post.venue }}.
+          <a href="{{ post.paperurl }}"><i class="fa fa-download" aria-hidden="true"></i> Download</a>
+      </li>
+    {% elsif post.paperurl %}
       <li><a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></li>
+    {% endif %}
+    {% if post.abstract %}
+      <li><details><summary markdown="span">Abstract</summary>
+        {{ post.abstract }}
+      </details>
+      </li>
     {% endif %}
 
    </ul>
