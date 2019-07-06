@@ -38,6 +38,24 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
+    {% if post.paperurl %}
+    <a href="{{ post.paperurl }}" class="btn btn--info" style="text-decoration: none">
+      <i class="fa fa-download" aria-hidden="true"></i><span> Download</span>
+    </a>
+    {% endif %}
+
+    {% if post.codeurl %}
+    <a href="{{ post.codeurl }}" class="btn btn--warning" style="text-decoration: none">
+      <i class="fa fa-code" aria-hidden="true"></i> Code
+    </a>
+    {% endif %}
+
+    {% if post.bibtex %}
+    <a href="{{ post.bibtex }}" class="btn btn--success" style="text-decoration: none" target="_blank">
+      <i class="fa fa-quote-right" aria-hidden="true"></i> Bibtex
+    </a>
+    {% endif %}
+
 
     <ul>
     {% if post.authors %}
@@ -45,19 +63,19 @@
     {% endif %}
     {% if post.paperurl and post.venue %}
       <li>{{ post.venue }}.
-          <a href="{{ post.paperurl }}"><i class="fa fa-download" aria-hidden="true"></i> Download</a>
+          <a href="{{ post.paperurl }}"></a>
       </li>
     {% elsif post.paperurl %}
       <li><a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></li>
     {% endif %}
+    </ul>
+
     {% if post.abstract %}
-      <li><details><summary markdown="span">Abstract</summary>
+      <details><summary class="btn btn--inverse" style="display: block; text-align: left">Abstract </summary>
         {{ post.abstract }}
       </details>
-      </li>
     {% endif %}
 
-   </ul>
 
 
   </article>
