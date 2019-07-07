@@ -7,8 +7,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-{: .element-alight-right}
-<a href="https://yuchaz.github.io/files/resume.pdf" class="btn btn--info" style="text-decoration: none; display: inline; float: right">
+{: .element-align-right}
+<a href="https://yuchaz.github.io/files/resume.pdf" class="btn btn--info" style="text-decoration: none">
   <i class="fa fa-download" aria-hidden="true"></i><span> DOWNLOAD PDF</span>
 </a>
 
@@ -20,14 +20,14 @@ redirect_from:
 * B.S. in Physics, National Taiwan University, 2015
 
 ## <i class="fa fa-briefcase"></i> Work experience
-* **Research Intern**, Microsoft Research, Redmond, WA <span style="float:right;">*Jun 2018 -- Sep 2018*&nbsp;&nbsp;</span> <br>
+* **Research Intern**, Microsoft Research, Redmond, WA <span class="element-align-right">*Jun 2018 -- Sep 2018*&nbsp;&nbsp;</span> <br>
   * Proposed an novel approach to model large scale dynamic networks based on stochastic block model.
   * Extended the model to study causal impact on networks.
 
-* **Teaching Assistant**, University of Washington, Seattle, WA <span style="float:right;">*Jan 2017 -- Dec 2017*&nbsp;&nbsp;</span> <br>
+* **Teaching Assistant**, University of Washington, Seattle, WA <span class="element-align-right">*Jan 2017 -- Dec 2017*&nbsp;&nbsp;</span> <br>
   * Courses taught: Fundamentals of Electrical Engineering, Discrete Time Linear Systems, Devices And Circuits I, Digital Signal Processing (graduate level course)
 
-* **Front-end Developer**, Psychological Warfare Group of M.N.D., Taipei, Taiwan <span style="float:right;">*Aug 2015 -- Jul 2016*&nbsp;&nbsp;</span> <br>
+* **Front-end Developer**, Psychological Warfare Group of M.N.D., Taipei, Taiwan <span class="element-align-right">*Aug 2015 -- Jul 2016*&nbsp;&nbsp;</span> <br>
   * Developed a cloud-based file exchanging platform, which enable user to search, view and share streaming media.
   * Technology used: JavaScript (react.js), HMTL/CSS.
 
