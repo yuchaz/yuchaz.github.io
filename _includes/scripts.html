@@ -5,12 +5,24 @@
 
 <script>
 $(document).ready(function(){
+
     var filename = $("#div-show-bib").attr("data");
     $("#div-show-bib").load(filename);
+
+    $('[data-toggle="popover"]').each(function(index, element){
+      var loadname = element.getAttribute("data-content");
+      $.get(loadname, function(data){
+        element.setAttribute("data-content", data);
+      });
+    });
+
+    $('[data-toggle="popover"]').popover();
+
 });
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+
 <script>
 new ClipboardJS('.btn');
 </script>

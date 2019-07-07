@@ -61,9 +61,18 @@
     {% endif %}
 
     {% if post.bibtex %}
-    <a href="{{ post.bibtex }}" class="btn btn--success" style="text-decoration: none" target="_blank">
+    <!-- <a href="{{ post.bibtex }}" class="btn btn--success" style="text-decoration: none" target="_blank">
       <i class="fa fa-quote-right" aria-hidden="true"></i> Bibtex
-    </a>
+    </a> -->
+
+    {% assign tooltip_id = abstract_id.last | prepend: "tooltip-" %}
+
+    <button type="button" class="btn btn--success" title='Bibtex'
+        data-toggle="popover" data-html="true" data-content="{{ post.bibtex }}"
+        data-template='<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header" style="margin-top: 0em;"></h3><div id="{{ tooltip_id }}" class="popover-body"></div><button class="btn btn--success element-align-right" style="margin: 0em 1em 0.5em 0em;" data-clipboard-target="#{{ tooltip_id }}"><i class="fa fa-clone" aria-hidden="true"></i> COPY</button></div>'>
+      <i class="fa fa-quote-right" aria-hidden="true"></i> Bibtex
+    </button>
+
     {% endif %}
 
 
