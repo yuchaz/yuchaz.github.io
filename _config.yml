@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Yu-Chia Chen"
 title_separator          : "-"
-name                     : &name "Yu-Chia Chen"
-description              : &description "PhD student at University of Washington"
+name                     : &name "Yu-Chia (Yuchia) Chen"
+description              : &description "My name is Yu-Chia Chen and I am a PhD student advised by professor Marina Meilă at the University of Washington (UW). My research interests are in manifold learning and geometric data analysis, with applications in Molecules dynamics simulation and Astronomy."
 url                      : https://yuchaz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yuchaz/yuchaz.github.io"
@@ -51,9 +51,9 @@ atom_feed:
 
 # SEO Related
 google_site_verification : "ntkDInXrozRznYNiAzJkxOAVyVEF2w5UpWh0w2yfd5g"
-bing_site_verification   :
+bing_site_verification   : "936CCE984F4CC653EFE3D95F38B4007E"
 alexa_site_verification  :
-yandex_site_verification :
+yandex_site_verification : "ead4db8de6553192"
 
 # Social Sharing
 twitter:
