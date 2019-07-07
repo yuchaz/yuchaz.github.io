@@ -11,4 +11,5 @@ abstract: 'Dynamic extensions of Stochastic block model (SBM) are of importance 
 ---
 <!-- codeurl: 'https://google.com' Move it up-->
 
+## Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s4CGMPmOcBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

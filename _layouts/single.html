@@ -54,7 +54,9 @@ layout: default
 
         {% if page.abstract %}
           <h2>Abstract</h2>
-          <p> {{ page.abstract | markdownify }} </p>
+          <div class="text-justify">
+            {{ page.abstract | markdownify }}
+          </div>
         {% endif %}
 
         </header>
