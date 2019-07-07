@@ -18,6 +18,17 @@ $(document).ready(function(){
 
     $('[data-toggle="popover"]').popover();
 
+
+    $("body").on('click', '[data-toggle="popover"]', function(e) {
+        e.stopPropagation();
+    });
+    $("body").on('click', '.popover', function(e) {
+         e.stopPropagation();
+    });
+    $("body").on('click', function(e) {
+            $('[data-toggle="popover"]').popover('hide');
+    });
+
 });
 </script>
 
