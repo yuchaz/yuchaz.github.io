@@ -3,7 +3,7 @@ title: "On Dynamic Network Models and Application to Causal Impact"
 collection: publications
 permalink: /publication/2019-dsbm-causal-impact
 date: 2019-08-04
-venue: 'KDD&apos;19 (To appear)'
+venue: 'KDD Research Track (To appear)'
 authors: 'Yu-Chia Chen, Avleen Bijral, and Juan Lavista Ferres'
 paperurl: 'https://www.kdd.org/kdd2019/accepted-papers'
 citation: 'Yu-Chia Chen, Avleen Bijral, and Juan Lavista Ferres. On Dynamic Network Models and Application to Causal Impact. In <i> Proceedings of the 25TH ACM SIGKDD Conference on Knowledge Discovery &amp; Data Mining.</i> ACM, 2019.'

@@ -67,21 +67,18 @@
     {% endif %}
 
 
-    <ul>
-    {% if post.authors %}
-      <li>{{ post.authors }}</li>
-    {% endif %}
-    {% if post.paperurl and post.venue %}
-      <li>{{ post.venue }}.
-          <a href="{{ post.paperurl }}"></a>
-      </li>
-    {% elsif post.paperurl %}
-      <li><a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></li>
-    {% endif %}
-    </ul>
+    <p>
+      {% if post.authors %}
+      <span>{{ post.authors }}</span><br>
+      {% endif %}
+      {% if post.date and post.venue %}
+      <span><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+      {% elsif post.venue %}
+      <span><i>{{ post.venue }}</i></span>
+      {% endif %}
+    </p>
 
     <div class="collapse" id="{{ collapse_id }}">
-    <!-- <div class="collapse" id="2019_coll_123"> -->
       <div class="card card-body">
         {{ post.abstract | markdownify }}
       </div>
