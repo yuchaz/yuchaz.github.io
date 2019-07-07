@@ -2,14 +2,18 @@
 layout: archive
 title: "Curriculum vitae"
 permalink: /cv/
+inline_obj: true
 author_profile: true
 redirect_from:
   - /resume
 ---
+{: .element-alight-right}
+<a href="https://yuchaz.github.io/files/resume.pdf" class="btn btn--info" style="text-decoration: none; display: inline; float: right">
+  <i class="fa fa-download" aria-hidden="true"></i><span> DOWNLOAD PDF</span>
+</a>
 
 {% include base_path %}
 
-The pdf version can be downloaded [here <i class="fa fa-download"></i>](https://yuchaz.github.io/files/resume.pdf).
 
 ## <i class="fa fa-graduation-cap"></i> Education
 * Ph.D in Electrical Engineering, University of Washington, 2021 (expected)

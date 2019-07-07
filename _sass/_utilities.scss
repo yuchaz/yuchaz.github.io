@@ -109,6 +109,11 @@ body:hover .visually-hidden button {
    Alignment
    ========================================================================== */
 
+.element-alight-right {
+  display: inline;
+  float: right;
+}
+
 /* clearfix */
 
 .cf { clear: both; }
