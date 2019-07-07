@@ -4,6 +4,8 @@ Personal website for Yu-Chia Chen
 - [ ] Add project pages. (e.g., MeSH, SelfieSense)
 - [ ] Add teaching pages.
 - [ ] Add codes pages. (e.g., megaman, [rad_est](https://nbviewer.jupyter.org/github/mmp2/megaman/blob/master/examples/radius_estimation_tutorial.ipynb?flush_cache=true))
+- [ ] Automate bibfile generation (not urgent!)
+- [ ] Teaser image
 
 # Favicon
 - Using [favicon.io](https://favicon.io) with the following configurations ([link](https://favicon.io/favicon-generator/?t=+++++yc&ff=Germania+One&fs=140&fc=%23FFFFFF&b=rounded&bc=%23be0119))
