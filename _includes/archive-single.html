@@ -69,7 +69,7 @@
 
     <button type="button" class="btn btn--success" title='Bibtex'
         data-toggle="popover" data-html="true" data-content="{{ post.bibtex }}"
-        data-template='<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header" style="margin-top: 0em;"></h3><div id="{{ tooltip_id }}" class="popover-body"></div><button class="btn btn--success element-align-right" style="margin: 0em 1em 0.5em 0em;" data-clipboard-target="#{{ tooltip_id }}"><i class="fa fa-clone" aria-hidden="true"></i> COPY</button></div>'>
+        data-template='<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header" style="margin-top: 0em;"></h3><div id="{{ tooltip_id }}" class="popover-body"></div><a href="{{ post.bibtex }}" class="btn btn--success" style="margin: 0em 0em 0.5em 1em;"><i class="fa fa-download" aria-hidden="true"></i><span> DOWNLOAD</span></a> <button class="btn btn--success element-align-right" style="margin: 0em 1em 0.5em 0em;" data-clipboard-target="#{{ tooltip_id }}"><i class="fa fa-clone" aria-hidden="true"></i> COPY</button></div>'>
       <i class="fa fa-quote-right" aria-hidden="true"></i> Bibtex
     </button>
 
