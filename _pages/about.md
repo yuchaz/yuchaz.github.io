@@ -12,13 +12,13 @@ My name is Yu-Chia Chen and I am a PhD student advised by professor [Marina Meil
 ## Experiences
 
 {: .text-justify}
-I interned in the Consumer Data and Analytics group at Microsoft during 2018 summer.We worked on modeling large scale temporal networks by dynamic stochastic block model and its extension to the causal impact of events on networks.
+I interned in the Consumer Data and Analytics group at [Microsoft](https://www.microsoft.com/) during 2018 summer. We worked on modeling large scale temporal networks by dynamic stochastic block model and its extension to causal impact on dynamic networks.
 <!-- We illustrated the power and the scalability of the model by studying publicly available temporal networks, e.g., MIT reality mining dataset and Mathoverflow networks, as well as an internal network which contains 50M nodes and 300M edges per snap shot.  -->
 The [paper](/publication/2019-dsbm-causal-impact) was accepted to [KDD'19](https://www.kdd.org/kdd2019/).
 
 {: .text-justify}
 I got my B.S. in Physics at [National Taiwan University](https://www.ntu.edu.tw/english/) (NTU) in June 2015.
-I was honored to work with professor [Yang-Fang Chen](https://web.phys.ntu.edu.tw/semiconductor/) as an undergraduate researcher on bio-inspired random laser.
+I was honored to work with professor [Yang-Fang Chen](https://web.phys.ntu.edu.tw/semiconductor/) on bio-inspired random laser.
 
 
 For more, you can find my [<i class="fa fa-id-badge"></i> curriculum vitae](/cv) or download it [<i class="fa fa-download"></i> here](/files/resume.pdf).
