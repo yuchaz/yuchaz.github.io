@@ -10,6 +10,7 @@ locale                   : "en-US"
 title                    : "Yu-Chia Chen"
 title_separator          : "-"
 name                     : &name "Yu-Chia (Yuchia) Chen"
+institute                : "University of Washington (UW ECE)"
 description              : &description "My name is Yu-Chia Chen and I am a PhD student advised by professor Marina Meilă at the University of Washington (UW). My research interests are in manifold learning and geometric data analysis, with applications in Molecules dynamics simulation and Astronomy."
 url                      : https://yuchaz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -86,7 +87,7 @@ author:
   location         : "Seattle, WA"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : # "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=rizGocsAAAAJ&hl=en"
   email            : "yuchaz@uw.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
