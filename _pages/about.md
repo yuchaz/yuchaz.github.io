@@ -12,7 +12,7 @@ My name is Yu-Chia Chen and I am a PhD student advised by professor [Marina Meil
 ## Experiences
 
 {: .text-justify}
-I interned in the Consumer Data and Analytics group at [Microsoft](https://www.microsoft.com/) during 2018 summer. We worked on modeling large scale temporal networks by dynamic stochastic block model and its extension to causal impact on dynamic networks.
+I interned in the Consumer Data and Analytics group at [Microsoft](https://www.microsoft.com/) during 2018 summer. We worked on modeling large scale temporal networks by dynamic stochastic block model and its extension to causal impact on dynamic social networks.
 <!-- We illustrated the power and the scalability of the model by studying publicly available temporal networks, e.g., MIT reality mining dataset and Mathoverflow networks, as well as an internal network which contains 50M nodes and 300M edges per snap shot.  -->
 The [paper](/publication/2019-dsbm-causal-impact) was accepted to [KDD'19](https://www.kdd.org/kdd2019/).
 
