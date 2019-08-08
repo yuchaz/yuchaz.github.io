@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 {: .text-justify}
-My name is Yu-Chia Chen and I am a PhD student advised by professor [Marina Meilă](https://www.stat.washington.edu/mmp/) at the [University of Washington](https://www.washington.edu/) (UW). My research interests are in manifold learning and geometric data analysis, with applications in Molecules dynamics simulation and Astronomy.
+My name is Yu-Chia Chen and I am a PhD student advised by professor [Marina Meilă](https://www.stat.washington.edu/mmp/) at the [University of Washington](https://www.washington.edu/) (UW). My research interests are in manifold learning, geometric data analysis and temporal graph modeling, with applications in Molecules dynamics simulation and Astronomy.
 
 ## Experiences
 
