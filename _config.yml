@@ -87,7 +87,7 @@ author:
   location         : "Seattle, WA"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=rizGocsAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=rizGocsAAAAJ&view_op=list_works&sortby=pubdate"
   email            : "yuchaz@uw.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
