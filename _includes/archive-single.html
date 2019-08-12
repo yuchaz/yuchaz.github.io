@@ -49,7 +49,7 @@
 
 
     {% if post.paperurl %}
-    <a href="{{ post.paperurl }}" class="btn btn--info" style="text-decoration: none">
+    <a href="{{ post.paperurl }}" class="btn btn--info" style="text-decoration: none" target="_blank">
       <i class="fa fa-download" aria-hidden="true"></i><span> Download</span>
     </a>
     {% endif %}
@@ -60,11 +60,14 @@
     </a>
     {% endif %}
 
-    {% if post.bibtex %}
-    <!-- <a href="{{ post.bibtex }}" class="btn btn--success" style="text-decoration: none" target="_blank">
-      <i class="fa fa-quote-right" aria-hidden="true"></i> Bibtex
-    </a> -->
+    {% if post.posterurl %}
+    <a href="{{ post.posterurl }}" class="btn btn--warning" style="text-decoration: none" target="_blank">
+      <i class="fa fa-line-chart" style="font-size: 1.2em" aria-hidden="true"></i> Poster
+    </a>
+    {% endif %}
 
+
+    {% if post.bibtex %}
     {% assign tooltip_id = abstract_id.last | prepend: "tooltip-" %}
 
     <button type="button" class="btn btn--success" title='Bibtex' data-trigger="click"
