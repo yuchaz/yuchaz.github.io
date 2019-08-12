@@ -36,20 +36,43 @@ layout: default
 
         <p>
 
-        {% if page.authors %}
-          {{ page.authors }} <br>
-        {% endif %}
+        <div class="container">
 
-        {% if page.collection == 'teaching' %}
-          {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
-        {% elsif page.venue and page.date %}
-            <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
-            {% if page.paperurl %}
-            <a href="{{ page.paperurl }}"><i class="fa fa-download" aria-hidden="true"></i> Download</a>
-            {% endif %}
-        {% elsif page.date %}
-          <span class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></span>
-        {% endif %}
+          <div class="row">
+            <div class="col-8" style="padding: 0">
+              {% if page.authors %}
+                {{ page.authors }} <br>
+              {% endif %}
+
+              {% if page.collection == 'teaching' %}
+                {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
+              {% elsif page.venue and page.date %}
+                  <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
+              {% elsif page.date %}
+                <span class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></span>
+              {% endif %}
+            </div>
+
+
+            <div class="col" style="padding: 0">
+              <span class="element-align-right">
+                {% if page.paperurl %}
+                <a href="{{ page.paperurl }}" class="btn btn--info" style="text-decoration: none" target="_blank">
+                  <i class="fa fa-download" aria-hidden="true"></i><span> Download</span>
+                </a>
+                {% endif %}
+
+                {% if page.posterurl %}
+                <a href="{{ page.posterurl }}" class="btn btn--warning" style="text-decoration: none" target="_blank">
+                  <i class="fa fa-line-chart" style="font-size: 1.2em" aria-hidden="true"></i> Poster
+                </a>
+                {% endif %}
+              </span>
+            </div>
+        </div>
+      </div>
+
+
       </p>
 
         {% if page.abstract %}

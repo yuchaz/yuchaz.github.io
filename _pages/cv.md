@@ -8,7 +8,7 @@ redirect_from:
   - /resume
 ---
 {: .element-align-right}
-<a href="https://yuchaz.github.io/files/resume.pdf" class="btn btn--info" style="text-decoration: none">
+<a href="https://yuchaz.github.io/files/resume.pdf" class="btn btn--info" style="text-decoration: none" target="_blank">
   <i class="fa fa-download" aria-hidden="true"></i><span> DOWNLOAD PDF</span>
 </a>
 
