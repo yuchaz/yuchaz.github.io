@@ -21,7 +21,7 @@ I got my B.S. in Physics at [National Taiwan University](https://www.ntu.edu.tw/
 I was honored to work with professor [Yang-Fang Chen](https://web.phys.ntu.edu.tw/semiconductor/) on bio-inspired random laser.
 
 
-For more, you can find my [<i class="fa fa-id-badge"></i> curriculum vitae](/cv) or download it [<i class="fa fa-download"></i> here](/files/resume.pdf).
+For more, you can find my [<i class="fa fa-drivers-license"></i> resume](/cv) or <a href="/files/resume.pdf" target="_blank"><i class="fa fa-download"></i> download</a> the pdf version.
 
 
 ## News
