@@ -2,7 +2,7 @@
 title: "Selecting the independent coordinates of manifolds with large aspect ratios"
 collection: publications
 permalink: /publication/2019-indep-coord-search
-date: 2019-07-02
+date: 2019-12-08
 venue: 'NeurIPS (To appear)'
 authors: 'Yu-Chia Chen and Marina Meilă'
 paperurl: 'https://arxiv.org/abs/1907.01651'
