@@ -26,10 +26,16 @@ For more, you can find my [<i class="fa fa-drivers-license"></i> resume](/cv) or
 
 ## News
 {: .text-justify}
+* **Sep 2019** Paper [Selecting the independent coordinates of manifolds with large aspect ratios](/publication/2019-indep-coord-search) accepted for poster presentation at [NeurIPS'19](https://nips.cc/) (acceptance rate 21.2%).
+
+{: .text-justify}
 * **Sep 2019** Attending the IPAM long program -- [Machine Learning for Physics and the Physics of Learning](http://www.ipam.ucla.edu/programs/long-programs/machine-learning-for-physics-and-the-physics-of-learning/) at UCLA (09/04/19 -- 12/08/19).
+
 {: .text-justify}
 * **Aug 2019** Presenting at [KDD'19](https://www.kdd.org/kdd2019/), Anchorage, AK (08/04/19 -- 08/08/19).
+
 {: .text-justify}
 * **Jun 2019** New paper on arXiv: [Selecting the independent coordinates of manifolds with large aspect ratios](/publication/2019-indep-coord-search).
+
 {: .text-justify}
-* **Apr 2019** New paper [On Dynamic Network Models and Application to Causal Impact](/publication/2019-dsbm-causal-impact) accepted for poster presentation at the [KDD'19](https://www.kdd.org/kdd2019/) Research Track.
+* **Apr 2019** New paper [On Dynamic Network Models and Application to Causal Impact](/publication/2019-dsbm-causal-impact) accepted for poster presentation at the [KDD'19](https://www.kdd.org/kdd2019/) Research Track (acceptance rate 14.2%).
