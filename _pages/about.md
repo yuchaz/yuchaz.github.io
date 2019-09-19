@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 header:
   overlay_image: uyuni.jpg
-  caption: "[Salar de Uyuni, Bolivia](https://en.wikipedia.org/wiki/Salar_de_Uyuni)"
+  caption: "Salar de Uyuni, Bolivia"
 
 ---
 {: .text-justify}
