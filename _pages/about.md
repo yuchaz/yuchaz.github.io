@@ -21,9 +21,6 @@ I got my B.S. in Physics at [National Taiwan University](https://www.ntu.edu.tw/
 I was honored to work with professor [Yang-Fang Chen](https://web.phys.ntu.edu.tw/semiconductor/) on bio-inspired random laser.
 
 
-For more, you can find my [<i class="fa fa-drivers-license"></i> resume](/cv) or <a href="/files/resume.pdf" target="_blank"><i class="fa fa-download"></i> download</a> the pdf version.
-
-
 ## News
 {: .text-justify}
 * **Sep 2019** Paper [Selecting the independent coordinates of manifolds with large aspect ratios](/publication/2019-indep-coord-search) accepted for poster presentation at [NeurIPS'19](https://nips.cc/) (acceptance rate 21.2%).
