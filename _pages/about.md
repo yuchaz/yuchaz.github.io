@@ -5,6 +5,10 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+header:
+  overlay_image: uyuni.jpg
+  caption: "[Salar de Uyuni, Bolivia](https://en.wikipedia.org/wiki/Salar_de_Uyuni)"
+
 ---
 {: .text-justify}
 My name is Yu-Chia Chen and I am a 4th year PhD student advised by professor [Marina Meilă](https://www.stat.washington.edu/mmp/) at the [University of Washington](https://www.washington.edu/) (UW). My research interests are in manifold learning, geometric data analysis and temporal graph modeling, with applications in Molecules dynamics simulation and Astronomy.
