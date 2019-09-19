@@ -6,6 +6,9 @@ inline_obj: true
 author_profile: true
 redirect_from:
   - /resume
+header:
+  overlay_image: http://localhost:4000/images/mt_rainier_tweak.jpeg
+  caption: "Mt. Rainier, WA, USA"
 ---
 {: .element-align-right}
 <a href="https://yuchaz.github.io/files/resume.pdf" class="btn btn--info" style="text-decoration: none" target="_blank">
