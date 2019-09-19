@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 {: .text-justify}
-My name is Yu-Chia Chen and I am a PhD student advised by professor [Marina Meilă](https://www.stat.washington.edu/mmp/) at the [University of Washington](https://www.washington.edu/) (UW). My research interests are in manifold learning, geometric data analysis and temporal graph modeling, with applications in Molecules dynamics simulation and Astronomy.
+My name is Yu-Chia Chen and I am a 4th year PhD student advised by professor [Marina Meilă](https://www.stat.washington.edu/mmp/) at the [University of Washington](https://www.washington.edu/) (UW). My research interests are in manifold learning, geometric data analysis and temporal graph modeling, with applications in Molecules dynamics simulation and Astronomy.
 
 ## Experiences
 
@@ -20,10 +20,11 @@ The [paper](/publication/2019-dsbm-causal-impact) was accepted to [KDD'19](https
 I got my B.S. in Physics at [National Taiwan University](https://www.ntu.edu.tw/english/) (NTU) in June 2015.
 I was honored to work with professor [Yang-Fang Chen](https://web.phys.ntu.edu.tw/semiconductor/) on bio-inspired random laser.
 
+Please check out my [CV here](/cv/).
 
 ## News
 {: .text-justify}
-* **Sep 2019** Paper [Selecting the independent coordinates of manifolds with large aspect ratios](/publication/2019-indep-coord-search) accepted for poster presentation at [NeurIPS'19](https://nips.cc/) (acceptance rate 21.2%).
+* **Sep 2019** Paper [Selecting the independent coordinates of manifolds with large aspect ratios](/publication/2019-indep-coord-search) accepted for poster presentation at [NeurIPS'19](https://nips.cc/Conferences/2019/AcceptedPapersInitial) (acceptance rate 21.2%).
 
 {: .text-justify}
 * **Sep 2019** Attending the IPAM long program -- [Machine Learning for Physics and the Physics of Learning](http://www.ipam.ucla.edu/programs/long-programs/machine-learning-for-physics-and-the-physics-of-learning/) at UCLA (09/04/19 -- 12/08/19).
