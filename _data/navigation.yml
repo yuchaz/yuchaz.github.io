@@ -15,8 +15,5 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
 
-  - title: "Resume"
+  - title: "CV"
     url: /cv/
-
-  - title: <i class="fa fa-download" aria-hidden="true"></i><span> CV (PDF)</span>
-    url: /files/resume.pdf
