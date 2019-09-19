@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-  overlay_image: http://localhost:4000/images/uyuni.jpg
+  overlay_image: uyuni.jpg
   caption: "[Salar de Uyuni, Bolivia](https://en.wikipedia.org/wiki/Salar_de_Uyuni)"
 
 ---

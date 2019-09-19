@@ -7,7 +7,7 @@ author_profile: true
 redirect_from:
   - /resume
 header:
-  overlay_image: http://localhost:4000/images/mt_rainier_tweak.jpeg
+  overlay_image: mt_rainier_tweak.jpeg
   caption: "Mt. Rainier, WA, USA"
 ---
 {: .element-align-right}
