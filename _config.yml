@@ -117,6 +117,7 @@ author:
   youtube          :
   wikipedia        :
   cvpdf            : "/files/resume.pdf"
+  bibtex           : "/bib/publications.bib"
 
 
 # Reading Files

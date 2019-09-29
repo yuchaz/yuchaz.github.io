@@ -118,6 +118,9 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
+      {% if author.bibtex %}
+        <li><a href="{{ author.bibtex }}"><i class="fa fa-fw fa-quote-right"></i> Bibtex (all)</a></li>
+      {% endif %}
       {% if author.cvpdf %}
         <li><a href="{{ author.cvpdf }}" target="_blank"><i class="fa fa-fw fa-file-pdf-o"></i> CV (PDF)</a></li>
       {% endif %}
