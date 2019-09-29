@@ -13,6 +13,10 @@
   visibility: hidden;
 }
 
+.cannot-click {
+  cursor: not-allowed;
+}
+
 /* for preloading images */
 
 .load {

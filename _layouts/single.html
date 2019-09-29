@@ -52,28 +52,37 @@ layout: default
             {% if page_category == "publication" %}
             <div class="btn-group" role="group" aria-label="Basic example">
               {% if page.paperurl %}
-              <a href="{{ page.paperurl }}" class="btn btn--info" style="text-decoration: none" target="_blank">
+              <div>
+              <a href="{{ page.paperurl }}" class="btn btn--info bttn-radius-left" style="text-decoration: none" target="_blank">
               {% else %}
-              <a href="#" class="btn btn--info btn--disabled" style="text-decoration: none" target="_blank">
+              <div class="cannot-click">
+              <a href="#" class="btn btn--info btn--disabled bttn-radius-left" style="text-decoration: none" target="_blank">
               {% endif %}
                 <i class="fa fa-download" aria-hidden="true"></i><span> Download</span>
               </a>
+              </div>
 
               {% if page.codeurl %}
-              <a href="{{ page.codeurl }}" class="btn btn--code" style="text-decoration: none" target="_blank">
+              <div>
+              <a href="{{ page.codeurl }}" class="btn btn--code bttn-radius-none" style="text-decoration: none" target="_blank">
               {% else %}
-              <a href="#" class="btn btn--code btn--disabled" style="text-decoration: none" target="_blank">
+              <div class="cannot-click">
+              <a href="#" class="btn btn--code btn--disabled bttn-radius-none" style="text-decoration: none" target="_blank">
               {% endif %}
                 <i class="fa fa-code" aria-hidden="true"></i> Code
               </a>
+              </div>
 
               {% if page.posterurl %}
-              <a href="{{ page.posterurl }}" class="btn btn--warning" style="text-decoration: none" target="_blank">
+              <div>
+              <a href="{{ page.posterurl }}" class="btn btn--warning bttn-radius-right" style="text-decoration: none" target="_blank">
               {% else %}
-              <a href="#" class="btn btn--warning btn--disabled" style="text-decoration: none" target="_blank">
+              <div class="cannot-click">
+              <a href="#" class="btn btn--warning btn--disabled bttn-radius-right" style="text-decoration: none" target="_blank">
               {% endif %}
                 <i class="fa fa-line-chart" style="font-size: 1.2em" aria-hidden="true"></i> Poster
               </a>
+              </div>
             </div>
             {% endif %}
       </p>
