@@ -41,7 +41,7 @@
     {% assign abstract_id = post.permalink | split: "/" %}
     {% assign collapse_id = abstract_id.last | prepend: "publist-" %}
 
-
+    {% if page.url == "/publications/" %}
     <div class="btn-group" role="group" aria-label="Basic example">
       {% if post.abstract %}
         <button class="btn btn--danger" type="button" data-toggle="collapse" data-target="{{ collapse_id | prepend: "#" }}" aria-expanded="true" aria-controls="{{ collapse_id }}">
@@ -89,6 +89,7 @@
         <i class="fa fa-quote-right" aria-hidden="true"></i> Bibtex
       </button>
     </div>
+    {% endif %}
 
 
     <p>
@@ -102,11 +103,13 @@
       {% endif %}
     </p>
 
+    {% if page.url == "/publications/" %}
     <div class="collapse" id="{{ collapse_id }}">
       <div class="card card-body text-justify">
         {{ post.abstract | markdownify }}
       </div>
     </div>
+    {% endif %}
 
 
 

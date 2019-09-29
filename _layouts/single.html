@@ -36,10 +36,6 @@ layout: default
 
         <p>
 
-        <div class="container">
-
-          <div class="row">
-            <div class="col-8" style="padding: 0">
               {% if page.authors %}
                 {{ page.authors }} <br>
               {% endif %}
@@ -51,28 +47,35 @@ layout: default
               {% elsif page.date %}
                 <span class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></span>
               {% endif %}
+
+            {% assign page_category = page.url | replace_first: "/", "" | split: "/" | first %}
+            {% if page_category == "publication" %}
+            <div class="btn-group" role="group" aria-label="Basic example">
+              {% if page.paperurl %}
+              <a href="{{ page.paperurl }}" class="btn btn--info" style="text-decoration: none" target="_blank">
+              {% else %}
+              <a href="#" class="btn btn--info btn--disabled" style="text-decoration: none" target="_blank">
+              {% endif %}
+                <i class="fa fa-download" aria-hidden="true"></i><span> Download</span>
+              </a>
+
+              {% if page.codeurl %}
+              <a href="{{ page.codeurl }}" class="btn btn--code" style="text-decoration: none" target="_blank">
+              {% else %}
+              <a href="#" class="btn btn--code btn--disabled" style="text-decoration: none" target="_blank">
+              {% endif %}
+                <i class="fa fa-code" aria-hidden="true"></i> Code
+              </a>
+
+              {% if page.posterurl %}
+              <a href="{{ page.posterurl }}" class="btn btn--warning" style="text-decoration: none" target="_blank">
+              {% else %}
+              <a href="#" class="btn btn--warning btn--disabled" style="text-decoration: none" target="_blank">
+              {% endif %}
+                <i class="fa fa-line-chart" style="font-size: 1.2em" aria-hidden="true"></i> Poster
+              </a>
             </div>
-
-
-            <div class="col" style="padding: 0">
-              <span class="element-align-right">
-                {% if page.paperurl %}
-                <a href="{{ page.paperurl }}" class="btn btn--info" style="text-decoration: none" target="_blank">
-                  <i class="fa fa-download" aria-hidden="true"></i><span> Download</span>
-                </a>
-                {% endif %}
-
-                {% if page.posterurl %}
-                <a href="{{ page.posterurl }}" class="btn btn--warning" style="text-decoration: none" target="_blank">
-                  <i class="fa fa-line-chart" style="font-size: 1.2em" aria-hidden="true"></i> Poster
-                </a>
-                {% endif %}
-              </span>
-            </div>
-        </div>
-      </div>
-
-
+            {% endif %}
       </p>
 
         {% if page.abstract %}
