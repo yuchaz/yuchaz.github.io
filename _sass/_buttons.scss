@@ -113,6 +113,10 @@
     filter: alpha(opacity=65);
     box-shadow: none;
     opacity: 0.65;
+
+    &:hover {
+      cursor:not-allowed
+    }
   }
 
   /* social buttons */
@@ -150,4 +154,15 @@
   &--small {
     font-size: $type-size-7;
   }
+
+
+  /* self defined button */
+  &--code {
+    background-color: $lavender;
+
+    &:hover {
+      background-color: mix(#000, $lavender, 20%);
+    }
+  }
+
 }
