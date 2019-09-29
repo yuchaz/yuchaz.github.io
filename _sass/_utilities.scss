@@ -43,6 +43,14 @@ body:hover .visually-hidden button {
   display: none !important;
 }
 
+
+/* font styles */
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+
 /* screen readers */
 
 .screen-reader-text:focus,
