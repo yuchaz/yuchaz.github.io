@@ -299,6 +299,14 @@ body:hover .visually-hidden button {
   .fa-xing-square {
     color: $xing-color;
   }
+
+  .fa-pdf {
+    font-family: Fontawesome;
+    &-red {
+      color: $crimson;
+    }
+  }
+
 }
 
 
