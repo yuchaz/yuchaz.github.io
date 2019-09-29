@@ -24,14 +24,14 @@ header:
 
 ## <i class="fa fa-briefcase"></i> Work experience
 * **Research Intern**, Microsoft Research, Redmond, WA <span class="element-align-right">*Jun 2018 -- Sep 2018*&nbsp;&nbsp;</span> <br>
-  * Proposed an novel approach to model large scale dynamic networks based on stochastic block model.
-  * Extended the model to study causal impact on networks.
+  * Studied large scale dynamic network model based on stochastic block model(SBM) and the extension to causal impact on temporal graphs.
+  * [Paper](/publication/2019-dsbm-causal-impact) accepted to KDD2019 research track (acceptance rate 14.2%).
 
 * **Teaching Assistant**, University of Washington, Seattle, WA <span class="element-align-right">*Jan 2017 -- Dec 2017*&nbsp;&nbsp;</span> <br>
-  * Courses taught: Fundamentals of Electrical Engineering, Discrete Time Linear Systems, Devices And Circuits I, Digital Signal Processing (graduate level course)
+  * Courses: Digital Signal Processing (graduate level), Devices And Circuits, Discrete Time Linear Systems, Fundamentals of Electrical Engineering.
 
-* **Front-end Developer**, Psychological Warfare Group of M.N.D., Taipei, Taiwan <span class="element-align-right">*Aug 2015 -- Jul 2016*&nbsp;&nbsp;</span> <br>
-  * Developed a cloud-based file exchanging platform, which enable user to search, view and share streaming media.
+* **Front-end Software Engineer**, Psychological Warfare Group of M.N.D., Taipei, Taiwan <span class="element-align-right">*Aug 2015 -- Jul 2016*&nbsp;&nbsp;</span> <br>
+  * Lead engineer on cloud-based file exchanging platform, which enabled user to search, view and share streaming media.
   * Technology used: JavaScript (react.js), HMTL/CSS.
 
 ## <i class="fa fa-code"></i> Skills
@@ -49,6 +49,7 @@ header:
 ## <i class="fa fa-language"></i> Languages
 * English -- Advanced
 * Mandarin -- Native
+* Taiwanese -- Native
 
 <!-- References
 ======
