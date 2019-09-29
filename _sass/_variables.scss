@@ -54,6 +54,7 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 $lavender                   : #8968ca;
 $crimson                    : #dc143c;
+$uwpurple                   : #6b42bd;
 
 $body-color                 : #fff;
 $background-color           : #fff;
@@ -92,7 +93,8 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+// $link-color                 : $info-color;
+$link-color                 : $uwpurple;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
