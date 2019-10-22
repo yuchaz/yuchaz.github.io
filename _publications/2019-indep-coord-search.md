@@ -13,5 +13,4 @@ posterurl: '/files/2019-indep-coord-search-poster.pdf'
 ---
 <!-- codeurl: 'https://google.com' Move it up-->
 
-Slides can be downloaded
-<h3><a href="/files/2019-indep-coord-search-slides.pdf" target="_blank">here</a>.</h3>
+<h3> Slides can be downloaded <a href="/files/2019-indep-coord-search-slides.pdf" target="_blank">here</a>.</h3>
