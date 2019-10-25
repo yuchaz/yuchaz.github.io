@@ -10,6 +10,7 @@ citation: '<b class="small-caps">Yu-Chia Chen</b> and Marina Meilă. Selecting t
 abstract: 'Many manifold embedding algorithms fail apparently when the data manifold has a large aspect ratio (such as a long, thin strip). Here, we formulate success and failure in terms of finding a smooth embedding, showing also that the problem is pervasive and more complex than previously recognized. Mathematically, success is possible under very broad conditions, provided that embedding is done by carefully selected eigenfunctions of the Laplace-Beltrami operator $\Delta$. Hence, we propose a bicriterial Independent Eigencoordinate Selection (IES) algorithm that selects smooth embeddings with few eigenvectors. The algorithm is grounded in theory, has low computational overhead, and is successful on synthetic and large real data.'
 bibtex: '/bib/2019-indep-coord-search.bib'
 posterurl: '/files/2019-indep-coord-search-poster.pdf'
+codeurl: 'https://github.com/yuchaz/independent_coordinate_search'
 ---
 <!-- codeurl: 'https://google.com' Move it up-->
 
