@@ -28,6 +28,12 @@ Please check out my [CV here](/cv/).
 
 ## News
 {: .text-justify}
+* **Dec 2019** Presenting at [NeurIPS'19](https://nips.cc/Conferences/2019/), Vancouver, Canada (12/08/19 -- 12/14/19).
+
+{: .text-justify}
+* **Nov 2019** Workshop paper [Manifold coordinates with physical meaning](/publication/2019-manifold-lasso-short) accepted for poster presentation at the [Machine Learning and the Physical Sciences (ML4PS) Workshop](https://ml4physicalsciences.github.io) at [NeurIPS'19](https://nips.cc/Conferences/2019).
+
+{: .text-justify}
 * **Sep 2019** Paper [Selecting the independent coordinates of manifolds with large aspect ratios](/publication/2019-indep-coord-search) accepted for poster presentation at [NeurIPS'19](https://nips.cc/Conferences/2019/AcceptedPapersInitial) (acceptance rate 21.2%).
 
 {: .text-justify}
