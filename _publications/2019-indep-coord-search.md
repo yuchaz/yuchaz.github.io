@@ -3,7 +3,7 @@ title: "Selecting the independent coordinates of manifolds with large aspect rat
 collection: publications
 permalink: /publication/2019-indep-coord-search
 date: 2019-12-08
-venue: 'NeurIPS (To appear)'
+venue: 'NeurIPS'
 authors: '<b class="small-caps">Yu-Chia Chen</b> and Marina Meilă'
 paperurl: 'http://papers.nips.cc/paper/8393-selecting-the-independent-coordinates-of-manifolds-with-large-aspect-ratios'
 citation: '<b class="small-caps">Yu-Chia Chen</b> and Marina Meilă. Selecting the independent coordinates of manifolds with large aspect ratios. In H. Wallach, H. Larochelle, A. Beygelzimer, F. d&rsquo;Alché-Buc, E. Fox, and R.Garnett, editors, <i>Advances in Neural Information Processing Systems 32</i>, pages 1086-1095. Curran Associates, Inc., 2019'
