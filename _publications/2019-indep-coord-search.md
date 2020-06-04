@@ -16,6 +16,6 @@ codeurl: 'https://github.com/yuchaz/independent_coordinate_search'
 
 <h3><i class="fa fa-download" aria-hidden="true"></i><span> Extra materials</span></h3>
 <ul>
-  <li><a href="https://arxiv.org/abs/1907.01651" target="_blank">Long version (arxiv)</a></li>
+  <li><a href="https://arxiv.org/pdf/1907.01651.pdf" target="_blank">Long version (arxiv)</a></li>
   <li><a href="/files/2019-indep-coord-search-slides.pdf" target="_blank">Slides</a></li>
 </ul>

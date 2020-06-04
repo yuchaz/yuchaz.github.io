@@ -28,6 +28,9 @@ Please check out my [CV here](/cv/).
 
 ## News
 {: .text-justify}
+* **Jun 2020**  Machine learning internship at Facebook, Seattle, WA.
+
+{: .text-justify}
 * **Dec 2019** Presenting at [NeurIPS'19](https://nips.cc/Conferences/2019/), Vancouver, Canada (12/08/19 -- 12/14/19).
 
 {: .text-justify}
