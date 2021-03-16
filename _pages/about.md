@@ -28,6 +28,9 @@ Please check out my [CV here](/cv/).
 
 ## News
 {: .text-justify}
+* **Mar 2021**  New paper on arXiv: [Helmholtzian Eigenmap: Topological feature discovery & edge flow learning from point cloud data](https://arxiv.org/abs/2103.07626).
+
+{: .text-justify}
 * **Jun 2020**  Machine learning internship at Facebook, Seattle, WA.
 
 {: .text-justify}
