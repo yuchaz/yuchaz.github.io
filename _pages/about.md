@@ -11,7 +11,7 @@ header:
 
 ---
 {: .text-justify}
-My name is Yu-Chia Chen and I am a 4th year PhD student advised by professor [Marina Meilă](https://www.stat.washington.edu/mmp/) at the [University of Washington](https://www.washington.edu/) (UW). My research interests are in manifold learning, geometric data analysis and temporal graph modeling, with applications in Molecules dynamics simulation and Astronomy.
+My name is Yu-Chia Chen and I am a 5th year PhD student advised by professor [Marina Meilă](https://www.stat.washington.edu/mmp/) at the [University of Washington](https://www.washington.edu/) (UW). My research interests are in manifold learning, geometric data analysis and temporal graph modeling, with applications in Molecules dynamics simulation and Astronomy.
 
 ## Experiences
 
@@ -27,6 +27,13 @@ I was honored to work with professor [Yang-Fang Chen](https://web.phys.ntu.edu.t
 Please check out my [CV here](/cv/).
 
 ## News
+
+{: .text-justify}
+* **Jul 2021**  New paper on arXiv: [The decomposition of the higher-order homology embedding constructed from the k-Laplacian](https://arxiv.org/abs/2107.10970).
+
+{: .text-justify}
+* **Jun 2021**  New paper on ChemRxiv: [Water-Accelerated Photo-oxidation of CH3NH3PbI3 Perovskite: Mechanism, rate orders, and rate constants](https://doi.org/10.33774/chemrxiv-2021-30ggh).
+
 {: .text-justify}
 * **Mar 2021**  New paper on arXiv: [Helmholtzian Eigenmap: Topological feature discovery & edge flow learning from point cloud data](https://arxiv.org/abs/2103.07626).
 
