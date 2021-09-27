@@ -19,7 +19,7 @@ header:
 </h2>
 
 ## <i class="fa fa-fw fa-graduation-cap"></i> Education
-* Ph.D in Electrical Engineering, University of Washington, 2021 (expected)
+* Ph.D in Electrical Engineering, University of Washington, 2021
 * B.S. in Physics, National Taiwan University, 2015
 
 ## <i class="fa fa-fw fa-briefcase"></i> Work experience
