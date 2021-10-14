@@ -11,25 +11,32 @@ header:
 
 ---
 {: .text-justify}
-My name is Yu-Chia Chen and I am a Research Scientist at Facebook.
+My name is Yu-Chia Chen, and I am a Research Scientist at [Facebook](https://engineering.fb.com).
 My research interests are in unsupervised learning, geometric data analysis, and vector field learning.
+Please check out my [CV here](/cv/).
 
-## Experiences
 
+## Education
 {: .text-justify}
 I graduated with my Ph.D. in Electrical Engineering at the [University of Washington](https://www.washington.edu/) (UW) in August 2021.
 I was honored to complete my thesis, <q>Learning Topological Structures and Vector Fields on Manifolds with (Higher-order) Discrete Laplacians</q>, under the supervision of professor [Marina Meilă](https://www.stat.washington.edu/mmp/).
 
-<!-- {: .text-justify}
-I interned in the Consumer Data and Analytics group at [Microsoft](https://www.microsoft.com/) during 2018 summer. We worked on modeling large scale temporal networks by dynamic stochastic block model and its extension to causal impact on dynamic social networks. -->
-<!-- We illustrated the power and the scalability of the model by studying publicly available temporal networks, e.g., MIT reality mining dataset and Mathoverflow networks, as well as an internal network which contains 50M nodes and 300M edges per snap shot.  -->
-<!-- The [paper](/publication/2019-dsbm-causal-impact) was accepted to [KDD'19](https://www.kdd.org/kdd2019/). -->
-
 {: .text-justify}
-I got my B.S. in Physics at [National Taiwan University](https://www.ntu.edu.tw/english/) (NTU) in June 2015.
+I obtained my B.S. in Physics at [National Taiwan University](https://www.ntu.edu.tw/english/) (NTU) in June 2015.
 I was pleased to work with professor [Yang-Fang Chen](https://web.phys.ntu.edu.tw/semiconductor/) on the bio-inspired random laser.
 
-Please check out my [CV here](/cv/).
+## Experience
+
+{: .text-justify}
+I was at [Facebook](https://engineering.fb.com) as a Machine Learning Intern in 2020. We built transfer learning and multi-task learning deep learning models to optimize the click-through rate (CTR) based recommendation system for search ads placement.
+
+
+{: .text-justify}
+I interned at [Microsoft Research](https://www.microsoft.com/en-us/research/) during the summer of 2018. We developed modeling large-scale temporal networks by dynamic stochastic block model and its extension to causal impact on dynamic social networks. Our work has been published in [KDD'19](https://doi.org/10.1145/3292500.3330990) and [Animal Behaviour](https://doi.org/10.1016/j.anbehav.2021.08.008).
+<!-- We illustrated the power and the scalability of the model by studying publicly available temporal networks, e.g., MIT reality mining dataset and Mathoverflow networks, as well as an internal network which contains 50M nodes and 300M edges per snap shot. -->
+<!-- The [paper](/publication/2019-dsbm-causal-impact) was accepted to [KDD'19](https://www.kdd.org/kdd2019/). -->
+
+
 
 ## News
 

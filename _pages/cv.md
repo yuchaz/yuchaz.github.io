@@ -25,17 +25,17 @@ header:
 ## <i class="fa fa-fw fa-briefcase"></i> Work experience
 * **Machine Learning Intern**, Facebook, Seattle, WA <span class="element-align-right">*Jun 2020 -- Sep 2020*&nbsp;&nbsp;</span> <br>
   * Developed deep learning models to optimize the click-through rate (CTR) based recommendation system for search ads placement
-  * Investigated various modeling techniques including transfer learning and multi-task learning
+  * Investigated various modeling techniques, including transfer learning and multi-task learning
 
 * **Research Intern**, Microsoft Research, Redmond, WA <span class="element-align-right">*Jun 2018 -- Sep 2018*&nbsp;&nbsp;</span> <br>
-  * Studied large scale dynamic network model based on stochastic block model(SBM) and its extension to causal impact on temporal graphs
-  * [Paper](/publication/2019-dsbm-causal-impact) accepted to KDD2019 research track (acceptance rate 14.2%)
+  * Studied large-scale dynamic network model based on stochastic block model(SBM) and its extension to causal impact on temporal graphs
+  * Our work has been accepted to [KDD'19 research track](/publication/2019-dsbm-causal-impact) (acceptance rate 14.2%) and [Animal Behaviour](/publication/2021-giraffe-social-network)
 
 * **Teaching Assistant**, University of Washington, Seattle, WA <span class="element-align-right">*Jan 2017 -- Dec 2017*&nbsp;&nbsp;</span> <br>
   * Courses: Digital Signal Processing (graduate level), Devices And Circuits, Discrete Time Linear Systems, Fundamentals of Electrical Engineering
 
 * **Front-end Software Engineer**, Psychological Warfare Group of M.N.D., Taipei, Taiwan <span class="element-align-right">*Aug 2015 -- Jul 2016*&nbsp;&nbsp;</span> <br>
-  * Lead engineer on cloud-based file exchanging platform, which enabled user to search, view and share streaming media
+  * Lead engineer on cloud-based file exchanging platform, which enables users to search, view, and share streaming media
   * Technology used: JavaScript (react.js), HMTL/CSS
 
 ## <i class="fa fa-fw fa-code"></i> Skills
