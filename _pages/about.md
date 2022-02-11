@@ -19,7 +19,7 @@ Please check out my [CV here](/cv/).
 ## Education
 {: .text-justify}
 I graduated with my Ph.D. in Electrical Engineering at the [University of Washington](https://www.washington.edu/) (UW) in August 2021.
-I was honored to complete my thesis, <q>Learning Topological Structures and Vector Fields on Manifolds with (Higher-order) Discrete Laplacians</q>, under the supervision of professor [Marina Meilă](https://www.stat.washington.edu/mmp/).
+I was honored to complete my thesis, [Learning Topological Structures and Vector Fields on Manifolds with (Higher-order) Discrete Laplacians](https://digital.lib.washington.edu/researchworks/handle/1773/48019), under the supervision of professor [Marina Meilă](https://www.stat.washington.edu/mmp/).
 
 {: .text-justify}
 I obtained my B.S. in Physics at [National Taiwan University](https://www.ntu.edu.tw/english/) (NTU) in June 2015.
