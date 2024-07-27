@@ -11,7 +11,7 @@ header:
 
 ---
 {: .text-justify}
-My name is Yu-Chia Chen, and I am a Research Scientist at [Facebook](https://engineering.fb.com).
+My name is Yu-Chia Chen（陳昱嘉）, and I am a Research Scientist at [Meta](https://engineering.fb.com) working on GenAI for Ads.
 My research interests are in unsupervised learning, geometric data analysis, and vector field learning.
 Please check out my [CV here](/cv/).
 
