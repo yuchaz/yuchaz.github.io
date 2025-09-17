@@ -23,6 +23,19 @@ header:
 * B.S. in Physics, National Taiwan University, 2015
 
 ## <i class="fa fa-fw fa-briefcase"></i> Work experience
+* **Staff Research Scientist**, Meta, Seattle, WA <span class="element-align-right">*Sep 2021 -- Present*&nbsp;&nbsp;</span> <br>
+  * Tech-led a team of MLEs on LLM post-training to enhance ad performance and ensure alignment with advertisers’ brand values
+    * Designed and implemented a multi-objective PPO framework to jointly optimize performance/user engagement and brand alignment using
+users’ and AI-driven signals
+    * Investigating vision-aware multimodal LLM post-training to mitigate clickbait text and drive incremental conversion gains
+    * Delivered 7.34% top-line improvement in ad quality metrics, translating to tens of millions of dollars in incremental revenue
+    * News coverage:
+      * https://www.facebook.com/business/news/introducing-ai-sandbox-and-expanding-meta-advantage-suite
+      * https://techcrunch.com/2023/05/11/meta-announces-generative-ai-features-for-advertisers/
+  * Investigated automatic text engagement and hallucination scoring models as thhe evaluators for the generated texts
+    * Created a Multi-Text with Engagement label pipeline from the impression-level data to rank text performance within the same ads
+    * Developed a hallucination detection model using human-annotated texts with label distillations
+
 * **Machine Learning Intern**, Facebook, Seattle, WA <span class="element-align-right">*Jun 2020 -- Sep 2020*&nbsp;&nbsp;</span> <br>
   * Developed deep learning models to optimize the click-through rate (CTR) based recommendation system for search ads placement
   * Investigated various modeling techniques, including transfer learning and multi-task learning

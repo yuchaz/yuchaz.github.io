@@ -12,7 +12,7 @@ header:
 ---
 {: .text-justify}
 My name is Yu-Chia Chen, and I am a Staff Research Scientist at [Meta](https://engineering.fb.com) working on GenAI for Ads.
-My expertise and interests are in Natural Language Processing (NLP), Large Language Model (LLM) post-training, Reinforcement Learning from  Human Feedback (RLHF), and AI product developments.
+My expertise and interests are in Natural Language Processing (NLP), Large Language Model (LLM) post-training, Reinforcement Learning from Human Feedback (RLHF), and AI product developments.
 Please check out my [CV here](/cv/).
 
 
@@ -25,8 +25,7 @@ I was honored to complete my thesis, [Learning Topological Structures and Vector
 I obtained my B.S. in Physics at [National Taiwan University](https://www.ntu.edu.tw/english/) (NTU) in June 2015.
 I was pleased to work with professor [Yang-Fang Chen](https://web.phys.ntu.edu.tw/semiconductor/) on the bio-inspired random laser.
 
-## Experience
-
+## Previous Experience
 {: .text-justify}
 I was at [Facebook](https://engineering.fb.com) as a Machine Learning Intern in 2020. We built transfer learning and multi-task learning deep learning models to optimize the click-through rate (CTR) based recommendation system for search ads placement.
 
