@@ -11,7 +11,7 @@ title                    : "Yu-Chia Chen"
 title_separator          : "-"
 name                     : &name "Yu-Chia (Yuchia) Chen"
 institute                : "University of Washington (UW ECE)"
-description              : &description "My name is Yu-Chia Chen and I am a PhD student advised by professor Marina Meilă at the University of Washington (UW). My research interests are in manifold learning and geometric data analysis, with applications in Molecules dynamics simulation and Astronomy."
+description              : &description "My name is Yu-Chia Chen, and I am a Staff Research Scientist at Meta working on GenAI for Ads. My expertise and interests are in Natural Language Processing (NLP), Large Language Model (LLM) post-training, Reinforcement Learning from  Human Feedback (RLHF), and AI product developments."
 url                      : https://yuchaz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yuchaz/yuchaz.github.io"
@@ -83,12 +83,12 @@ analytics:
 author:
   name             : "Yu-Chia Chen | 陳昱嘉"
   avatar           : "profile.jpg"
-  bio              : "Research Scientist at Meta"
+  bio              : "Staff Research Scientist at Meta"
   location         : "Seattle, WA"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=N0J_sQgAAAAJ&view_op=list_works&sortby=pubdate"
-  email            : "yuchaz@uw.edu"
+  email            : "yuchiac@outlook.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

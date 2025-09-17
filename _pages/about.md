@@ -11,8 +11,8 @@ header:
 
 ---
 {: .text-justify}
-My name is Yu-Chia Chen, and I am a Research Scientist at [Meta](https://engineering.fb.com) working on GenAI for Ads.
-My research interests are in unsupervised learning, geometric data analysis, and vector field learning.
+My name is Yu-Chia Chen, and I am a Staff Research Scientist at [Meta](https://engineering.fb.com) working on GenAI for Ads.
+My expertise and interests are in Natural Language Processing (NLP), Large Language Model (LLM) post-training, Reinforcement Learning from  Human Feedback (RLHF), and AI product developments.
 Please check out my [CV here](/cv/).
 
 
