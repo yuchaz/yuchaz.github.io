@@ -1,0 +1,152 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.read_time %}
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+        {% if page.modified %}
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+        {% endif %}
+
+        <p>
+
+              {% if page.authors %}
+                {{ page.authors }} <br>
+              {% endif %}
+
+              {% if page.collection == 'teaching' %}
+                {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
+              {% elsif page.venue and page.date %}
+                  <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
+              {% elsif page.date %}
+                <span class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></span>
+              {% endif %}
+
+            {% assign page_category = page.url | replace_first: "/", "" | split: "/" | first %}
+            {% if page_category == "publication" %}
+            <div class="btn-group" role="group" aria-label="Basic example">
+              {% if page.paperurl %}
+              <div>
+              <a href="{{ page.paperurl }}" class="btn btn--info bttn-radius-left" style="text-decoration: none" target="_blank">
+              {% else %}
+              <div class="cannot-click">
+              <a href="#" class="btn btn--info btn--disabled bttn-radius-left" style="text-decoration: none" target="_blank">
+              {% endif %}
+                <i class="fa fa-download" aria-hidden="true"></i><span> Download</span>
+              </a>
+              </div>
+
+              {% if page.codeurl %}
+              <div>
+              <a href="{{ page.codeurl }}" class="btn btn--code bttn-radius-none" style="text-decoration: none" target="_blank">
+              {% else %}
+              <div class="cannot-click">
+              <a href="#" class="btn btn--code btn--disabled bttn-radius-none" style="text-decoration: none" target="_blank">
+              {% endif %}
+                <i class="fa fa-code" aria-hidden="true"></i> Code
+              </a>
+              </div>
+
+              {% if page.posterurl %}
+              <div>
+              <a href="{{ page.posterurl }}" class="btn btn--warning bttn-radius-right" style="text-decoration: none" target="_blank">
+              {% else %}
+              <div class="cannot-click">
+              <a href="#" class="btn btn--warning btn--disabled bttn-radius-right" style="text-decoration: none" target="_blank">
+              {% endif %}
+                <i class="fa fa-line-chart" style="font-size: 1.2em" aria-hidden="true"></i> Poster
+              </a>
+              </div>
+            </div>
+            {% endif %}
+      </p>
+
+        {% if page.abstract %}
+          <h2>Abstract</h2>
+          <div class="text-justify">
+            {{ page.abstract | markdownify }}
+          </div>
+        {% endif %}
+
+        </header>
+      {% endunless %}
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section>
+
+      {% if page.bibtex %}
+        <h3 style="display: inline"><i class="fa fa-quote-right" aria-hidden="true"></i> Bibtex </h3>
+        <div class="element-align-right">
+          <button class="btn btn--success" data-clipboard-target="#div-show-bib">
+            <i class="fa fa-clone" aria-hidden="true"></i> COPY
+          </button>
+        </div>
+        <div class="notice notice--primary">
+          <tt><div id="div-show-bib" style="white-space: pre-wrap" data="{{ base_path }}{{ page.bibtex }}">Loading bib files...</div></tt>
+        </div>
+
+      {% endif %}
+
+      {% if page.citation %}
+        <h3>Recommended citation</h3><p>{{ page.citation }} </p>
+      {% endif %}
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+      </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+
+      {% include post_pagination.html %}
+    </div>
+
+    {% if site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </article>
+
+  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
+  {% if page.id and page.related and site.related_posts.size > 0 %}
+    <div class="page__related">
+      {% if site.data.ui-text[site.locale].related_label %}
+        <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
+      {% endif %}
+      <div class="grid__wrapper">
+        {% for post in site.related_posts limit:4 %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>
