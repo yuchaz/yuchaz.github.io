@@ -15,7 +15,7 @@ Staff Research Scientist at Meta Superintelligence Lab (MSL) specializing in NLP
 - Drove measurable global growth by double digit user engagement increases for AI Characters chatbot
 - Delivered multi-million dollar revenue and achieved +6.7% performance gain for ads text generation, with results featured in [TechCrunch](/press/202305-techcrunch/) and [Import AI](/press/202508-importai/)
 
-Please check out my [resume page](/resume/) or [resume pdf](/files/resume.pdf/).
+Please check out my [resume (PDF)](/files/resume.pdf).
 
 
 ## Education
